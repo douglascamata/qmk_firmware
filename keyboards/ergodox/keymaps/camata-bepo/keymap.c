@@ -1,8 +1,8 @@
 #include "ergodox.h"
 #include "action_layer.h"
 #include "version.h"
-#include "keymap_french.h"
 #include "keymap_bepo.h"
+#include "keymap_french.h"
 
 #define BASE 0 // default layer
 #define NUML 1 // numeric layer
@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|   {  |           |  }   |------+------+------+------+------+--------|
  * |   Ê    |   À  |   Y  |   X  |   .  |   K  |      |           |      |   '  |   Q  |   G  |   H  |   F  |   Ç    |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |      |      |      |      |      |                                       | AltGr|      |   %  |   W  |      |
+ *   |      |      |      |      | NAVL |                                       | AltGr|      |   %  |   W  |      |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
  *                                        | Vol- | Vol+ |       | Prev |  Next  |
